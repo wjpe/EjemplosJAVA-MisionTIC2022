@@ -5,12 +5,12 @@ public class numeroDigitos {
         Scanner scan = new Scanner(System.in);
         System.out.println("Digite un numero entero");
         int numero = scan.nextInt();
-        int resultado = numeroDigitos(numero);
+        int resultado = numDigitos(numero);
         System.out.println("Cifras = " + resultado);
         
     }
 
-    public static int numeroDigitos(int numeroD){
+    public static int numDigitos(int numeroD){
         //1990 ---> 4 Cifras
         int cifras = 0;
 
